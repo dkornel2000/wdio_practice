@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667766282239' stop='1667766288518'>
+    <name>Ecommerce Application</name>
+    <title>Ecommerce Application</title>
+    <test-cases>
+        <test-case start='1667766282240' status='pending' stop='1667766282240'>
+            <name>UI Controls</name>
+            <title>UI Controls</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1667766282240' status='pending' stop='1667766282240'>
+            <name>Dynamic Dropdown controls</name>
+            <title>Dynamic Dropdown controls</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1667766282240' status='failed' stop='1667766288517'>
+            <name>Checkboxes Identification</name>
+            <title>Checkboxes Identification</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.88'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'false' to equal 'true'      
+                      actual expected
+                      
+                      'falsetrue'
+                      </message>
+                <stack-trace>AssertionError: expected 'false' to equal 'true'
+                    at Context.&lt;anonymous> (C:\Program Files\webDriverIO\test\specs\uiControls.js:72:40)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
